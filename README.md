@@ -1,6 +1,6 @@
 # nodegui-starter
 
-This is a fork of [nodegui-starter](https://github.com/nodegui/nodegui-starter) that to build with webpack in a suspicious way.
+This is a fork of [nodegui-starter](https://github.com/nodegui/nodegui-starter) to build with webpack in a suspicious way.
 
 ## To Use
 
@@ -27,7 +27,7 @@ npm run build
 Get the latest [Qode](https://github.com/nodegui/qode/releases) binaries for your environment.
 
 ### Packaging steps for Windows
-1. Donload and unzip the lates Qode for windows (`win32-x64.zip`) 
+1. Download and unzip the latest Qode for windows (`win32-x64.zip`) 
 1. Copy the built file (`dist/index.js`) into `win32-x64/`
 1. Create `exec.bat`
 1. Remove unnecessary `.dll` files from `win32-x64/`
@@ -51,6 +51,7 @@ win32-x64/
 	└qwindows.dll
 ```
 
+If you don't like creating `exec.bat`, directly drag and drop `index.js` into `qode.exe`.
 
 ## Resources for Learning NodeGUI
 
