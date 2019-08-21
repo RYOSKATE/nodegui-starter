@@ -1,5 +1,5 @@
 const path = require("path");
-
+const webpack = require("webpack");
 module.exports = {
   mode: process.NODE_ENV || "development",
   entry: "./src",
@@ -26,5 +26,10 @@ module.exports = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"]
-  }
+  },
+  plugins : [
+    new webpack.DefinePlugin({
+      MODULE_ROOT: JSON.stringify(path.resolve(__dirname, 'node_modules/@nodegui/nodegui')),
+    })
+  ],
 };

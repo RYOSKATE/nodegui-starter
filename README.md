@@ -1,6 +1,6 @@
 # nodegui-starter
 
-**Clone and run for a quick way to see NodeGUI in action.**
+This is fork of [nodegui-starter]() that to build in a suspicious way.
 
 ## To Use
 
