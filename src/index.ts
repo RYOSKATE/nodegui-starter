@@ -1,9 +1,11 @@
-const {
+import {
   QMainWindow,
   QWidget,
   QLabel,
-  FlexLayout
-} = require("@nodegui/nodegui");
+  FlexLayout,
+  QPushButton,
+  QPixmap
+} from "@nodegui/nodegui";
 
 const win = new QMainWindow();
 
